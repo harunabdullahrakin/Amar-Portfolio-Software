@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Harun Abdullah",
+    "title": "He/him",
+    "avatar": "https://res.cloudinary.com/drgcdhagg/image/upload/v1742730884/me_f9xtsv.jpg",
+    "banner": "https://images.unsplash.com/photo-1544306094-e2dcf9479da3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
+    "verified": true,
+    "bio": "watching anime (:\non a vacation",
+    "status": "I'm not currently doing anything!"
+  },
+  "navigation": [
+    { "name": "User Info", "path": "user-info", "active": true },
+    { "name": "Projects", "path": "projects", "active": false },
+    { "name": "Socials", "path": "socials", "active": false },
+    { "name": "Discover", "path": "discover", "active": false },
+    { "name": "Contact", "path": "contact", "active": false }
+  ],
+  "socialLinks": [
+    { "name": "Gmail", "username": "johndoe@gmail.com", "url": "mailto:johndoe@gmail.com", "icon": "email", "action": "copy" },
+    { "name": "Facebook", "username": "John Doe", "url": "https://facebook.com/johndoe", "icon": "facebook", "action": "view" },
+    { "name": "Instagram", "username": "@johndoe", "url": "https://instagram.com/johndoe", "icon": "instagram", "action": "view" },
+    { "name": "YouTube", "username": "@johndoe", "url": "https://youtube.com/c/johndoe", "icon": "youtube", "action": "view" },
+    { "name": "Discord", "username": "@johndoe", "url": "https://discord.com/users/johndoe", "icon": "discord", "action": "view" },
+    { "name": "Spotify", "username": "John Doe", "url": "https://open.spotify.com/user/johndoe", "icon": "spotify", "action": "view" }
+  ],
+  "projects": {
+    "title": "Projects/Work Place",
+    "description": "Some Public projects only",
+    "items": [
+      { "name": "Amar World", "icon": "/assets/icons/project1.png", "url": "#" },
+      { "name": "RAMIAKINSWOME", "icon": "/assets/icons/project2.png", "url": "#" },
+      { "name": "LAYLUX", "icon": "/assets/icons/project3.png", "url": "#" },
+      { "name": "RAKIN DEV", "icon": "/assets/icons/project4.png", "url": "#" }
+    ]
+  },
+  "quickLinks": [
+    { "name": "Youtube", "url": "https://youtube.com/c/rakin" },
+    { "name": "Discord", "url": "https://discord.com/users/rakin" },
+    { "name": "Instagram", "url": "https://instagram.com/rakin" }
+  ],
+  "contact": {
+    "buttonText": "Contact",
+    "title": "Contact With Me",
+    "formFields": [
+      { "type": "text", "label": "Username", "required": true },
+      { "type": "text", "label": "Discord username:", "required": false },
+      { "type": "email", "label": "Email:", "required": true },
+      { "type": "textarea", "label": "Message:", "required": true }
+    ],
+    "submitButton": "Send message",
+    "cancelButton": "cancel"
+  },
+  "webhooks": {
+    "discord": "https://discord.com/api/webhooks/your-webhook-url-here"
+  }
+}
