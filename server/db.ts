@@ -289,9 +289,9 @@ function initDatabase() {
       INSERT INTO profile (name, title, avatar, banner, verified, bio, status)
       VALUES (?, ?, ?, ?, ?, ?, ?)
     `).run(
-      'John Doe',
-      'Full Stack Developer',
-      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      'Harun Abdullah',
+      'He/Him',
+      'https://res.cloudinary.com/drgcdhagg/image/upload/v1742730884/me_f9xtsv.jpg',
       'https://images.unsplash.com/photo-1544306094-e2dcf9479da3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
       1,
       'watching anime (:\non a vacation',
@@ -320,12 +320,12 @@ function initDatabase() {
   const socialCheck = db.prepare('SELECT * FROM social_links LIMIT 1').get();
   if (!socialCheck) {
     const socialLinks = [
-      { name: 'Gmail', username: 'johndoe@gmail.com', url: 'mailto:johndoe@gmail.com', icon: 'email', action: 'copy' },
-      { name: 'Facebook', username: 'John Doe', url: 'https://facebook.com/johndoe', icon: 'facebook', action: 'view' },
-      { name: 'Instagram', username: '@johndoe', url: 'https://instagram.com/johndoe', icon: 'instagram', action: 'view' },
-      { name: 'YouTube', username: '@johndoe', url: 'https://youtube.com/c/johndoe', icon: 'youtube', action: 'view' },
-      { name: 'Discord', username: '@johndoe', url: 'https://discord.com/users/johndoe', icon: 'discord', action: 'view' },
-      { name: 'Spotify', username: 'John Doe', url: 'https://open.spotify.com/user/johndoe', icon: 'spotify', action: 'view' }
+      { name: 'Gmail', username: 'harunabdullahrakin@gmail.com', url: 'mailto:harunabdullahrakin@gmail.com', icon: 'email', action: 'copy' },
+      { name: 'Facebook', username: 'Rakinisawsome', url: 'https://facebook.com/rakinisawsome', icon: 'facebook', action: 'view' },
+      { name: 'Instagram', username: '@rakinisawsome', url: 'https://instagram.com/@rakinisawsome', icon: 'instagram', action: 'view' },
+      { name: 'YouTube', username: '@harunabdullahrakin', url: 'https://youtube.com/@harunabdullahrakin', icon: 'youtube', action: 'view' },
+      { name: 'Discord', username: '@rakinisawsome', url: 'https://discord.com/users/rakinisawsome', icon: 'discord', action: 'view' },
+      { name: 'Spotify', username: 'Nigga', url: 'https://open.spotify.com/user/nigga', icon: 'spotify', action: 'view' }
     ];
     
     const socialInsert = db.prepare('INSERT INTO social_links (name, username, url, icon, action) VALUES (?, ?, ?, ?, ?)');
@@ -357,9 +357,9 @@ function initDatabase() {
   const quickLinksCheck = db.prepare('SELECT * FROM quick_links LIMIT 1').get();
   if (!quickLinksCheck) {
     const quickLinks = [
-      { name: 'Youtube', url: 'https://youtube.com/c/johndoe' },
-      { name: 'Discord', url: 'https://discord.com/users/johndoe' },
-      { name: 'Instagram', url: 'https://instagram.com/johndoe' }
+      { name: 'Youtube', url: 'https://youtube.com/c/' },
+      { name: 'Discord', url: 'https://discord.com/users/' },
+      { name: 'Instagram', url: 'https://instagram.com/' }
     ];
     
     const quickLinkInsert = db.prepare('INSERT INTO quick_links (name, url) VALUES (?, ?)');
@@ -493,7 +493,7 @@ function getConfig(): ConfigType {
   }
   
   // Try to get loading text
-  let loadingText = "Loading...";
+  let loadingText = "Harun Abdullah";
   try {
     const loadingTextResult = db.prepare('SELECT loading_text FROM owner_settings WHERE id = 1').get() as any;
     if (loadingTextResult && loadingTextResult.loading_text) {
