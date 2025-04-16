@@ -31,6 +31,7 @@ Make sure to get the installation key
 Dm me in discord to get the key
 (rakinisawsome)discord.
 
+free key: "ionbehalfofallusersagreetothetermsandconditions"
 
 
 ## Demo
