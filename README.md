@@ -82,7 +82,7 @@ Amar Portfolio Software is built using the following technologies:
 - **Frontend**: HTML5, CSS3, JavaScript, React.js
 - **Backend**: Node.js, Express.js
 - **Database**: SQLite (for data storage, e.g., for projects, contact form submissions, etc.)
-- **Framework**: Qwit (for simplified routing and server-side management)
+- **Framework**: Qwik (for simplified routing and server-side management)
 - **Deployment**: **ryx.us** (sponsor hosting platform)
 
 ## **Contributing**
