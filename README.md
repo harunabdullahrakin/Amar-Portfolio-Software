@@ -53,8 +53,11 @@ Amar Portfolio Software can be easily deployed using **ryx.us**, our sponsor's h
 1. **Download & Extract**: Download the software package and unzip it to your desired directory.
 2. **Get the Installation Key**: To unlock full functionality, please reach out via Discord (username: `rakinisawsome`) for the installation key.
 
-Free Key:  
-`"ionbehalfofallusersagreetothetermsandconditions"`
+Note: (){im brokie consider to donate me for this project. 
+}else{
+if your are broke like me just dm me in discord & star this repo for free key.
+}
+
 
 ## **Demo**
 
