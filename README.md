@@ -23,7 +23,7 @@ Create a stunning portfolio in seconds with an intuitive user interface and seam
 
 ## **Deployment**
 
-Amar Portfolio Software is easy to deploy on any Node.js hosting platform.
+Amar Portfolio Software can be easily deployed using **ryx.us**, our sponsor's hosting platform. Follow the steps below for deployment:
 
 ### **Deployment Steps**:
 1. Clone the repository:
@@ -37,11 +37,14 @@ Amar Portfolio Software is easy to deploy on any Node.js hosting platform.
     ```
 3. Set up SQLite database:
     - The project uses SQLite as the database. Ensure that you have the correct SQLite database configuration.
-4. Start the server:
+4. Deploy to **ryx.us**:
+    - Visit [ryx.us](https://ryx.us) to get started with deployment.
+    - Follow their simple hosting setup instructions for deploying Node.js applications.
+5. Start the server:
     ```bash
     npm start
     ```
-5. Open the app in your browser at `http://localhost:3000`.
+6. Open the app in your browser at `http://localhost:3000` or the live domain after deployment.
 
 ## **Documentation**
 
@@ -80,7 +83,7 @@ Amar Portfolio Software is built using the following technologies:
 - **Backend**: Node.js, Express.js
 - **Database**: SQLite (for data storage, e.g., for projects, contact form submissions, etc.)
 - **Framework**: Qwit (for simplified routing and server-side management)
-- **Deployment**: Render, Heroku, DigitalOcean
+- **Deployment**: **ryx.us** (sponsor hosting platform)
 
 ## **Contributing**
 
@@ -96,4 +99,3 @@ We welcome contributions to improve Amar Portfolio Software. To contribute:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
