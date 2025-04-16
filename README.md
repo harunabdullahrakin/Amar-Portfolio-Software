@@ -35,11 +35,13 @@ Amar Portfolio Software is easy to deploy on any Node.js hosting platform.
     cd Amar-Portfolio-Software
     npm install
     ```
-3. Start the server:
+3. Set up SQLite database:
+    - The project uses SQLite as the database. Ensure that you have the correct SQLite database configuration.
+4. Start the server:
     ```bash
     npm start
     ```
-4. Open the app in your browser at `http://localhost:3000`.
+5. Open the app in your browser at `http://localhost:3000`.
 
 ## **Documentation**
 
@@ -76,7 +78,8 @@ Explore the UI design and functionality through the images below:
 Amar Portfolio Software is built using the following technologies:
 - **Frontend**: HTML5, CSS3, JavaScript, React.js
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (for admin panel and form submissions)
+- **Database**: SQLite (for data storage, e.g., for projects, contact form submissions, etc.)
+- **Framework**: Qwit (for simplified routing and server-side management)
 - **Deployment**: Render, Heroku, DigitalOcean
 
 ## **Contributing**
