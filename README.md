@@ -38,7 +38,7 @@ Dm me in discord to get the key
 https://amar-portfolio-software.onrender.com/setup
 
 
-
+![gg](previews/Screenshot_20250416_141303_Chrome.png)
 ## Images/preview
 ![Home Page](https://i.ibb.co.com/dwmkcwYw/Screenshot-20250416-141020-Chrome.png)
 ![Login Page](https://i.ibb.co.com/dwYtG9wX/Screenshot-20250416-141030-Chrome.png)
